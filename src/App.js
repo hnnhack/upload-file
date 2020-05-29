@@ -1,9 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Form, Input, Button, Image, Message, Header, Icon, Table } from 'semantic-ui-react';
 
-// import axios from 'axios';
-// import catchErrors from './utils/catchErrors';
-
 const INITIAL_RECEIPT = {
   image: '',
 };
