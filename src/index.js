@@ -5,11 +5,9 @@ import { Container } from 'semantic-ui-react';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Container text style={{ padding: '1em' }}>
-      <App />
-    </Container>
-  </React.StrictMode>,
+  <Container text style={{ padding: '1em' }}>
+    <App />
+  </Container>,
   document.getElementById('root'),
 );
 
